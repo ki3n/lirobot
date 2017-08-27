@@ -14,7 +14,7 @@ To begin using this robot, you must install a few necessary python packages, a w
 '''
 sudo mv /path/to/driver/file /path/to/browser/directory
 sudo ln -s /path/to/driver/file /usr/bin
-
+'''
 # Running the script
 Before running the script, there are a few things to understand:
 1. Do not run two instances of this script at the same time from the same account OR two instances of this script at the same time from the same IP. I left the script very basic so that others could use the script for their own needs. It seems that LinkedIn.com has a way to detect robots by their frequency of requests, but not by using a web driver directly. I leave the user to sort out the process of changing request headers, JavaScript document object names, etc...
