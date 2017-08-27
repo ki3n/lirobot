@@ -5,16 +5,16 @@ A robot for scraping job title, job description, and job links from LinkedIn.com
 To begin using this robot, you must install a few necessary python packages, a web client, and a corresponding web driver. 
 
 1. You must install [selenium](https://pypi.python.org/pypi/selenium) and [BeautifulSoup4](https://pypi.python.org/pypi/beautifulsoup4/4.3.2). This can be done easily by using ''pip'':
-''sudo pip install bs4 selenium''
+``sudo pip install bs4 selenium``
 
 2. You must install a web browser which supports the use of selenium. I suggest a non-mobile browser because that's the only browser I ran code tests upon. Typically people will use [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Chrome](https://www.google.com/chrome/browser/desktop/index.html).
 
 3. You must install a corresponding web driver for your browser: [geckodriver](https://github.com/mozilla/geckodriver/releases) for Firefox and [chrome driver](https://sites.google.com/a/chromium.org/chromedriver/) for Chrome. I would recommend installing the driver in your browser's installation directory and making a symbolic link to the file:
 ### Linux
 '''
-sudo mv /path/to/driver/file /path/to/browser/directory
-sudo ln -s /path/to/driver/file /usr/bin
-'''
+``sudo mv /path/to/driver/file /path/to/browser/directory``
+``sudo ln -s /path/to/driver/file /usr/bin``
+
 # Running the script
 Before running the script, there are a few things to understand:
 1. Do not run two instances of this script at the same time from the same account OR two instances of this script at the same time from the same IP. I left the script very basic so that others could use the script for their own needs. It seems that LinkedIn.com has a way to detect robots by their frequency of requests, but not by using a web driver directly. I leave the user to sort out the process of changing request headers, JavaScript document object names, etc...
