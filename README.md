@@ -20,7 +20,7 @@ To begin using this robot, you must install a few necessary python packages, a w
 Before running the script, there are a few things to understand:
 1. Do not run two instances of this script at the same time from the same account OR two instances of this script at the same time from the same IP. I left the script very basic so that others could use the script for their own needs. It seems that LinkedIn.com has a way to detect robots by their frequency of requests, but not by using a web driver directly. I leave the user to sort out the process of changing request headers, JavaScript document object names, etc...
 
-2. You need to change the browser instance opened by ''driver = webdriver.Firefox()'' on line 35 to match your browser. The code was tested on the Firefox browser. 
+2. You need to change the browser instance opened by ``driver = webdriver.Firefox()`` on line 35 to match your browser. The code was tested on the Firefox browser. 
 
 3. You will need to enter in your own information into the *Parameters* section of the script at the top. The section is commented well to help the user understand what they need to enter. 
 
