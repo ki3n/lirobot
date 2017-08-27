@@ -7,7 +7,7 @@ To begin using this robot, you must install a few necessary python packages, a w
 1. You must install [selenium](https://pypi.python.org/pypi/selenium) and [BeautifulSoup4](https://pypi.python.org/pypi/beautifulsoup4/4.3.2). This can be done easily by using ''pip'':
 
 ```bash
-sudo pip install bs4 selenium``
+sudo pip install bs4 selenium
 ```
 2. You must install a web browser which supports the use of selenium. I suggest a non-mobile browser because that's the only browser I ran code tests upon. Typically people will use [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Chrome](https://www.google.com/chrome/browser/desktop/index.html).
 
